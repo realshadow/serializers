@@ -1,0 +1,23 @@
+<phpunit colors="true" bootstrap="./tests/bootstrap.php">
+	<testsuite name="IniEncodeTest">
+		<directory>./tests</directory>
+	</testsuite>
+	<testsuite name="JsonDecodeTest">
+		<directory>./tests</directory>
+	</testsuite>
+	<testsuite name="JsonEncodeTest">
+		<directory>./tests</directory>
+	</testsuite>
+	<testsuite name="JsonpDecodeTest">
+		<directory>./tests</directory>
+	</testsuite>
+	<testsuite name="JsonpEncodeTest">
+		<directory>./tests</directory>
+	</testsuite>
+	<testsuite name="XmlDecodeTest">
+		<directory>./tests</directory>
+	</testsuite>
+	<testsuite name="XmlEncodeTest">
+		<directory>./tests</directory>
+	</testsuite>
+</phpunit>

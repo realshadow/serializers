@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<shop>supercars.com</shop>
+	<cars>
+		<car>
+			<manufacturer>VW</manufacturer>
+			<model>Golf</model>
+			<engine>1.9</engine>
+		</car>
+		<car><manufacturer>Škoda</manufacturer>
+			<model>Rapid</model>
+			<engine>1.6</engine>
+		</car>
+	</cars>
+	<images>
+		<name>foo</name>
+		<extension>jpg</extension>
+	</images>
+	<images>
+		<name>bar</name>
+		<extension>jpg</extension>
+	</images>
+	<obrazky>
+		<obrazok>
+			<name>foo</name>
+			<extension>jpg</extension>
+		</obrazok>
+	</obrazky>
+</root>

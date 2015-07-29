@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<shop>supercars.com</shop>
+	<cars>
+		<manufacturer>VW</manufacturer>
+		<model>Golf</model>
+		<engine>1.9</engine>
+	</cars>
+	<cars>
+		<manufacturer>Škoda</manufacturer>
+		<model>Rapid</model>
+		<engine>1.6</engine>
+	</cars>
+</root>

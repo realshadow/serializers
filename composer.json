@@ -1,0 +1,24 @@
+{
+	"name": "realshadow/serializers",
+	"description": "PHP collection of serializers for JSON, JSONP, XML, YAML, INI",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Lukáš Homza",
+			"email": "lukashomz@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+		"symfony/Yaml": "dev-master",
+		"austinhyde/IniParser": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"Serializers\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"keywords": ["configuration"]
+}
