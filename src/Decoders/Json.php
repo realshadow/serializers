@@ -147,7 +147,7 @@
 				$this->data = $this->formatMSDate($this->data);
 			}
 
-			if(version_compare(PHP_VERSION, '5.4.0', '>=')) {
+			if(version_compare(PHP_VERSION, '5.4.0', '>=') && !(defined('JSON_C_VERSION') && PHP_INT_SIZE > 4)) {
 				$result = json_decode($this->data, $toArray, 512, JSON_BIGINT_AS_STRING);
 			} else {
 				$result = json_decode($this->escapeBigint($this->data), $toArray);
